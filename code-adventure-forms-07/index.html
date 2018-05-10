@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Form 07</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/_normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <p>My Form 07 SIGN IN</p>
+  <div class="container">   
+    <nav>
+      <ul class="tabs">
+        <li>
+		  <input id="tab1" type="radio" name="tabs">
+		  <label for="tab1"><a href="index.html">SIGN IN</a></label>		
+		</li>
+        <li>
+		  <input id="tab2" type="radio" name="tabs">
+		  <label for="tab2"><a href="signup.html">SIGN UP</a></label>		
+		</li>
+      </ul>
+    </nav>	
+    <form id="signin-form">
+      <div class="signin">
+
+        <label for="username">USERNAME</label><br>
+        <input type="text" id="username" name="username"><br>
+
+        <label for="password">PASSWORD</label><br>
+        <input type="password" id="password" name="password"><br>
+		
+        <input class="toggle" type="checkbox" />
+        <p class="keep">KEEP ME SIGNED IN</p>
+      </div>
+
+      <div class="signin">
+        <button type="submit">SIGN IN</button>
+        <hr>
+        <p>Forgot your password?</p>
+      </div>
+    </form>
+  </div>
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

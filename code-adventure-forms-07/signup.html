@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Form 07</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/_normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <p>My Form 07 SIGN UP</p>
+  <div class="container">
+    <nav>
+      <ul class="tabs">
+        <li>
+		  <input id="tab3" type="radio" name="tabs">
+		  <label for="tab3"><a href="index.html">SIGN IN</a></label>		
+		</li>
+        <li>
+		  <input id="tab4" type="radio" name="tabs">
+		  <label for="tab4"><a href="signup.html">SIGN UP</a></label>		
+		</li>
+      </ul>
+    </nav>	      
+    <form id="signup-form">
+      <div class="signup">
+        <label for="fullname">FULL NAME</label><br>
+        <input type="text" id="fullname" name="first-name" placeholder="Required"><br>
+
+        <label for="email">EMAIL</label><br>
+        <input type="email" id="email" name="email" placeholder="Required"><br>
+
+        <label for="password">PASSWORD</label><br>
+        <input type="password" id="password" name="password2" placeholder="Required"><br>
+
+        <label for="conf-password2">CONFIRM PASSWORD</label><br>
+        <input type="password" id="conf-password2" name="conf-password2" placeholder="Required"><br>
+
+        <button type="submit" id="signup-button">SIGN UP</button>
+      </div>
+    </form>
+
+  </div>
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
